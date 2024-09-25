@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
 body{
 font-family: 'Times New Roman', Times, serif;
 background-color: #e8e8e8;
-background: url(../Source/img/ellipse\ background.png) 50% no-repeat;
+background: url(../Source/img/ellipse\ background.png) center no-repeat;
 }
 
 .main{
@@ -106,60 +106,6 @@ padding: 20px;
 margin-bottom: 68px;
 }
 
-
-.p_li_1{
-font-size: 20px;
-line-height: 36px;
-color: #273d46;
-font-family: "Arial";
-filter: drop-shadow(0px 1px 0px rgba(0,0,0,0.3));
-}
-.p_li_2{
-font-size: 20px;
-line-height: 36px;
-color: #80b7b3;
-font-family: "Arial";
-}
-.p_li_3{
-font-size: 20px;
-line-height: 36px;
-color: #273d46;
-font-family: "Arial";
-font-weight: 700;
-}
-.p_li_4{
-opacity: 0.302;
-font-size: 20px;
-line-height: 36px;
-text-decoration: line-through;
-color: #273d46;
-font-family: "Arial";
-}
-
-.li_1{
-background: url(../Source/img/check\ icon.png) left no-repeat;
-padding: 0 0 0 40px;
-margin: 0 0 0 20px;
-}
-
-.li_2{
-background: url(../Source/img/check\ icon.png) left no-repeat;
-padding: 0 0 0 40px;
-margin: 0 0 0 20px;
-}
-
-.li_3{
-background: url(../Source/img/check\ icon.png) left no-repeat;
-padding: 0 0 0 40px;
-margin: 0 0 0 20px;
-}
-
-.li_4{
-background: url(../Source/img/check\ icon.png) left no-repeat;
-padding: 0 0 0 40px;
-margin: 0 0 0 20px;
-}
-
 .button{
 background-color:rgba(128,183,179);
 filter: drop-shadow(0px 6px 20px rgba(128,183,179,1));
@@ -177,4 +123,113 @@ text-transform: uppercase;
 color: #ffffff;
 font-family: "Arial";
 background: url(../Source/img/Shape\ 2.png) 90% 50% no-repeat;
+}
+
+.spisok1 li:nth-child(1){
+font-size: 20px;
+line-height: 36px;
+color: #273d46;
+font-family: "Arial";
+text-decoration: line-through;
+filter: drop-shadow(0px 1px 0px rgba(0,0,0,0.3));
+background: url(../Source/img/check\ icon.png) left no-repeat;
+padding: 0 0 0 40px;
+margin: 0 0 0 20px;
+}
+
+.spisok1 li:nth-child(2){
+font-size: 20px;
+line-height: 36px;
+color: #273d46;
+font-family: "Arial";
+font-weight: 700;
+background: url(../Source/img/check\ icon.png) left no-repeat;
+padding: 0 0 0 40px;
+margin: 0 0 0 20px;
+}
+.spisok1 li:nth-child(3){
+font-size: 20px;
+line-height: 36px;
+color: #273d46;
+font-family: "Arial";
+font-style: italic;
+background: url(../Source/img/check\ icon.png) left no-repeat;
+padding: 0 0 0 40px;
+margin: 0 0 0 20px;
+}
+.spisok1 li:nth-child(4){
+font-size: 20px;
+line-height: 36px;
+color: #273d46;
+font-family: "Arial";
+text-transform: uppercase;
+background: url(../Source/img/check\ icon.png) left no-repeat;
+padding: 0 0 0 40px;
+margin: 0 0 0 20px;
+}
+
+.spisok1 li:nth-child(1):hover{
+font-size: 20px;
+line-height: 36px;
+color: #273d46;
+font-family: "Arial";
+text-decoration: none;
+}
+
+.spisok1 li:nth-child(2):hover{
+font-size: 20px;
+line-height: 36px;
+color: #d55a5a;
+font-family: "Arial";
+background: url(../Source/img/red_icon.png) left no-repeat;
+}
+
+.spisok1 li:nth-child(3):hover{
+font-size: 20px;
+line-height: 36px;
+color: #273d46;
+font-family: "Arial";
+font-style: normal;
+}
+
+.spisok1 li:nth-child(4):hover{
+font-size: 20px;
+line-height: 36px;
+color: #273d46;
+font-family: "Arial";
+text-transform: none;
+}
+
+.button:hover{
+filter: drop-shadow(0px 6px 20px rgba(128,183,179,0.54));
+background-color: #3a5856;
+}
+
+.button:active{
+background-color: #818181;
+}
+
+.form_text{
+	border: 1px solid #000;
+	height: 50px;
+	width: 300px;
+	position: center;
+	font-size: 18px;
+	padding: 0 0 0 50px;
+	justify-content: center;
+}
+
+
+.form_text:focus{
+filter: drop-shadow(0 0 10px rgba(127,190,213,0.93));
+border: 1px solid #7fbed5;
+font-size: 26px;
+border-radius: 25px;
+}
+
+
+.form_cont{
+display: flex;
+justify-content: center;
+margin: 50px 0 50px 0;
 }
